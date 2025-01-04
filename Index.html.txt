@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>浪人可乐的冲浪世界</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: linear-gradient(to bottom, #1E90FF, #87CEFA);
+      color: #fff;
+    }
+    header {
+      background-color: #004680;
+      padding: 15px 20px;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2rem;
+    }
+	
+	
+    nav {
+      background-color: #005B96;
+      padding: 10px 20px;
+    }
+    nav a {
+      color: #fff;
+      margin: 0 15px;
+      text-decoration: none;
+      font-size: 1.1rem;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    section {
+      padding: 20px;
+    }
+    .about, .products, .surf-content, .contact {
+      margin-bottom: 20px;
+    }
+    h2 {
+      border-bottom: 2px solid #fff;
+      padding-bottom: 5px;
+    }
+    .surf-content img {
+      max-width: 100%;
+      height: auto;
+      border: 5px solid #fff;
+      margin-top: 10px;
+    }
+    .map {
+      margin: 20px 0;
+    }
+    footer {
+      text-align: center;
+      padding: 10px;
+      background-color: #004680;
+    }
+    footer a {
+      color: #fff;
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>浪人可乐的冲浪世界</h1>
+  </header>
+
+  <nav>
+    <a href="#about">关于我</a>
+    <a href="#products">产品代言</a>
+    <a href="#surf-content">冲浪内容</a>
+    <a href="#contact">联系我们</a>
+  </nav>
+
+  <section id="about" class="about">
+    <h2>关于我</h2>
+    <p>我是浪人可乐，生活在海南万宁的冲浪爱好者，热爱冲浪和大海，致力于推广冲浪文化与生态。</p>
+  </section>
+
+  <section id="products" class="products">
+    <h2>产品代言</h2>
+    <p>探索我的冲浪生态代言产品，从冲浪板到环保装备，让冲浪更环保、更酷！</p>
+    <ul>
+      <li>专业冲浪板</li>
+      <li>冲浪服</li>
+      <li>海洋环保配件</li>
+    </ul>
+  </section>
+
+  <section id="surf-content" class="surf-content">
+    <h2>我的冲浪内容</h2>
+    <p>查看我的最新冲浪视频和照片，感受海南万宁的冲浪魅力！</p>
+    <img src="https://via.placeholder.com/400x300" alt="浪人可乐冲浪照片">
+    <img src="https://via.placeholder.com/400x300" alt="浪人可乐冲浪照片">
+  </section>
+
+  <section id="contact" class="contact">
+    <h2>联系我们</h2>
+    <p>欢迎联系我，探索冲浪的乐趣！</p>
+    <ul>
+      <li>Email: <a href="mailto:kernalofficial@gmail.com" style="color: #fff;">kernalofficial@gmail.com</a></li>
+      <li>Instagram: <a href="https://instagram.com/kernalofficial" target="_blank" style="color: #fff;">@kernalofficial</a></li>
+      <li>地址：海南省万宁市</li>
+    </ul>
+    <div class="map">
+      <h3>我的位置</h3>
+      <iframe 
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3752.364107804232!2d110.39654837514025!3d18.799759611935273!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x359aef9b63754b59%3A0x20a4f6d333aa1f2e!2sWan%27ning%2C%20Hainan!5e0!3m2!1sen!2scn!4v1672152527606!5m2!1sen!2scn" 
+        width="100%" 
+        height="300" 
+        style="border:0;" 
+        allowfullscreen="" 
+        loading="lazy"></iframe>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2025 浪人可乐 | <a href="#contact">联系我们</a></p>
+  </footer>
+
+</body>
+</html>
